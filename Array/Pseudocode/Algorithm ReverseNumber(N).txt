@@ -1,0 +1,16 @@
+Algorithm ReverseNumber(N)
+
+Input: Integer N
+Output: Number with digits reversed
+
+1. Set reverse = 0
+
+2. While N != 0 do
+      a. digit = N % 10
+      b. reverse = reverse * 10 + digit
+      c. N = N / 10
+   End While
+
+3. Return reverse
+
+End Algorithm

@@ -1,0 +1,22 @@
+Algorithm CheckPrime(N)
+
+Input: Positive integer N > 1
+Output: "Prime" or "Not Prime"
+
+Begin
+
+    i ← 2
+
+    While i × i ≤ N do
+
+        If N mod i = 0 then
+            Return "Not Prime"
+        End If
+
+        i ← i + 1
+
+    End While
+
+    Return "Prime"
+
+End
